@@ -1,0 +1,43 @@
+.container{
+    max-width: 1032px;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(4, 4, 48);
+}
+
+.main {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    
+}
+
+.main p{
+    display: block;
+}
+
+.main div {
+    background-color: rgb(125, 125, 26);
+    height: 250px;
+    grid-template-columns: auto auto auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.main div:nth-child(1) {
+    display: grid;
+    grid-column: 1 / 4;
+}
+
+.main div:nth-child(5) {
+    display: grid;
+    grid-column: 1 / 4;
+}

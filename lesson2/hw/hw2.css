@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1032px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.wrapper div{
+    padding: 20px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding-bottom: 10px;
+    height: 400px;
+    /* width: 100px; */
+}

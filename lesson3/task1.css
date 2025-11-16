@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper div:nth-child(1) {
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    position: absolute;
+    top: 240px;
+    left: 550px;
+
+}
+
+.wrapper div:nth-child(2) {
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    position: absolute;
+    top: 170px;
+    left: 620px;
+}
+
+
+.wrapper div:nth-child(3) {
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    position: absolute;
+    top: 100px;
+}

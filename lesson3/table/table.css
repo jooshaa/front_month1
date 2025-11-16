@@ -1,0 +1,26 @@
+.table-wrapper{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid rgba(128, 128, 128, 0.17);
+}
+
+
+td, th{
+    padding: 5px 16px;
+}
+
+
+tr:hover{
+    background-color: grey;
+    transition: .3s;
+}
+
+table{
+    position: absolute;
+    top: 33%;
+    left: 33%;
+}

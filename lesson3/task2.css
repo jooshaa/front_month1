@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper1 {
+    display: flex;
+    border: 1px dotted black;
+    margin: 20px;
+    width: fit-content
+}
+
+.wrapper1 div {
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    margin: 2px;
+}
+
+.wrapper2 {
+    display: flex;
+    border: 1px dotted black;
+    margin: 20px;
+    position: relative;
+    width: fit-content
+}
+
+.wrapper2 div {
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    margin: 2px;
+}
+
+.wrapper3 {
+    display: flex;
+    border: 1px dotted black;
+    margin: 20px;
+    position: absolute;
+}
+
+.wrapper3 div {
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    margin: 2px;
+}
+
+.wrapper1 div:nth-child(2) {
+    background-color: green;
+}
+
+.wrapper2 div:nth-child(2) {
+    background-color: green;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.wrapper3 div:nth-child(2) {
+    background-color: green;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.back-to-top{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.container1{
+    max-width: 888px;
+    width: 100%;
+    padding: 0, 16px;
+    margin: 20px;
+}
