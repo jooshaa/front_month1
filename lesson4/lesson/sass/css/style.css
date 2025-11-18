@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  color: wheat;
+}
+
+.box {
+  background-color: tan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box .title {
+  background-color: red;
+}
+
+.badge, .badge-danger {
+  background: blueviolet;
+  color: lightgray;
+  border-radius: 4px;
+  padding: 2px;
+  margin: 0;
+}
+
+.badge-danger {
+  background-color: rgb(202, 56, 56);
+}
+
+/*# sourceMappingURL=style.css.map */

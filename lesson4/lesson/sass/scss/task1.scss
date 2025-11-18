@@ -1,0 +1,59 @@
+// $prisma: black;
+
+
+// @mixin flexCenter{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
+
+@import "variables";
+@import "mixins";
+
+@function toRem($px) {
+    @return ($px / $base) *1rem
+}
+
+
+@function is-light($color) {
+    @if (lightness($color)> 50) {
+        @return true;
+    }
+    
+    @else {
+        @return false
+    }
+}
+
+body {
+    background-color: $prisma;
+    @if is-light($prisma){
+        color: $dark;
+    }@else{
+        color: $light;
+    }
+}
+
+.box {
+    // width: toRem(200px);
+    background-color: tan;
+    @include flexCenter();
+
+    .title {
+        background-color: red;
+    }
+}
+
+
+.badge {
+    background: blueviolet;
+    color: lightgray;
+    border-radius: 4px;
+    padding: 2px;
+    margin: 0;
+}
+
+.badge-danger {
+    @extend .badge;
+    background-color: rgb(202, 56, 56);
+}

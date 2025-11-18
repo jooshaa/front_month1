@@ -1,0 +1,54 @@
+@use 'mixin';
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(168, 172, 175, 0.924);
+}
+
+.container{
+    max-width: 1032;
+    width: 100%;
+    margin: 0;
+    padding: 0 16px;
+}
+
+.wrapper{
+    @include mixin.flexCenter;
+    gap: 35px;
+    padding: 50px;
+}
+
+.wrapper div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
+    width: 330px;
+    background-color: azure;
+    padding: 20px;
+
+}
+
+.img{
+    border-radius: 1000px;
+    width: 200px;
+}
+
+// .wrapper div {
+//     @include mixin.flexCenter;
+//     height: 650px;
+//     width: 330px;
+//     background-color: white;
+//     position: relative;
+    
+// }
+
+
+// .h1{
+//     position: relative;
+//     right: 20px;
+// }
+
+

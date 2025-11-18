@@ -1,0 +1,23 @@
+
+/* ================== ONLINE Version ==================*/
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Text:wght@200..700&display=swap');
+
+
+body{
+    font-family: "Montserrat Underline";
+} */
+
+
+/* ================== Offline version ================== */
+
+
+@font-face {
+    font-family: "Montserrat Underline";
+    src: url("../assests/Montserrat_Underline/Montserrat_Underline/MontserratUnderline-Italic-VariableFont_wght.ttf")
+}
+
+body {
+    font-family: "Montserrat Underline";
+}
+
